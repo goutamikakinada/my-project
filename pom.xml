@@ -48,7 +48,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring.boot.version}</version>
                 <configuration>
-                    <executable>true</executable>
+                    <mainClass>com.example.MyWebAppApplication</mainClass>
                 </configuration>
             </plugin>
 
