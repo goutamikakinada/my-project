@@ -48,20 +48,11 @@
                 </configuration>
             </plugin>
 
-            <!-- Maven JAR Plugin for packaging the app -->
+            <!-- Maven WAR Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.example.MyWebAppApplication</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
             </plugin>
 
             <!-- Spring Boot Maven Plugin -->
